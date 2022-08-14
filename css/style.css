@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+
+body {
+    height: 100vh;
+    width: 100vw;
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+    color: white;
+}
+
+input {
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    border-bottom: solid 3px black;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+}
+
+.hidden {
+    display: none;
+}
+
+.center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, 0);;
+
+}
+
+#quote {
+    font-size: 20px;
+    margin-bottom: 10vh;
+}
+
+#clock {
+    font-size: 100px;
+}
+
+body > div.todo > span {
+    font-size: 30px;
+}
+
+.todo {
+    position: fixed;
+    right: 10%;
+    top: 25%;
+}
+
+#weather {
+    position: fixed;
+    left: 3%;
+    top: 5%;
+    font-size: 20px;
+}
+
+#weather > span {
+    margin-top: 8px ;
+    margin-bottom: 8px;
+    display: flex;
+    align-content: space-around;
+    justify-content: space-between;
+}
+
+.weatherMain {
+    display: flex;
+    align-items: center;
+}
+
+#weather > span:nth-child(1) > span:nth-child(1) {
+    margin-right: 10px;
+}
+
+#todo-list{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+#todo-list > li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#todo-list > li > p {
+    display: block;
+    max-width: 150px;
+}
+
+#todo-list > li > button {
+    height : 24.91px
+}
